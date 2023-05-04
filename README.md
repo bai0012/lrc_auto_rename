@@ -1,0 +1,2 @@
+# lrc_auto_rename
+自动将lrc字幕文件更改到与音频文件名称一致
