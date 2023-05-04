@@ -6,11 +6,12 @@
 
 由于lrc时间轴没有包含时长的全部信息，因而只能用最后一个出现的字幕的时间与音频的时间做模糊对应，在本程序里采用排序后对应的方式。
 
-### 字幕和音频的对应可能不准，建议使用该程序后检查
+### 字幕和音频的对应可能不准，建议使用该程序后检查。
 
 ## 程序截图
-![](https://raw.githubusercontent.com/bai0012/lrc_auto_rename/main/demo.png)
+![](https://raw.githubusercontent.com/bai0012/lrc_auto_rename/main/demo.png?token=GHSAT0AAAAAACAPNCMSPFNUXHJOFWZ7RCDKZCTIT4A)
 
+（如截图中音轨25和11的顺序就颠倒了，这是lrc字幕存在的问题）
 
 ## 如何使用
 
@@ -36,7 +37,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-在窗口中选择文件夹路径，选择要处理的路径，等待处理完成即可。
+在窗口中选择要处理文件夹路径，等待处理完成即可。
 
 
 (本程序在GPT 4指导下完成)
